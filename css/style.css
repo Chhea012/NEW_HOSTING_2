@@ -1,0 +1,84 @@
+body{
+    background-color:#a0d235;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-container {
+    width: 50%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    text-align: center;
+}
+.image img{
+    width: 300px;
+    height: 100px;
+    display:inline-block;
+    object-fit: cover;
+}
+.light-font {
+    font-weight: lighter;
+    font-size: 30px;
+    color: rgba(32, 21, 21, 0.6);
+}
+.weight-font {
+    font-weight: 700;
+    color: blue;
+}
+.Main-form {
+    margin-top: 20px;
+}
+.Main-form input[type="text"],
+.Main-form input[type="password"] {
+    width: 90%;
+    height: 40px;
+    margin-bottom: 20px;
+    outline-color: rgb(3, 24, 255);
+    border: 1px solid #a6a6a6;
+    color: #a6a6a6;
+    border-radius: 10px;
+  
+}
+
+.Main-form button[type="submit"] {
+    width: 90%;
+    height: 40px;
+    background-color: #0066cc;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Main-form button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+.language {
+    margin-top: 20px;
+}
+
+.language h2 {
+    display: inline-block;
+    margin-right: 30px;
+    font-weight: lighter;
+    color: rgba(0, 0, 255, 0.617);
+}
+h4{
+    color: rgba(0, 0, 255, 0.507);
+}
+.icon-1{
+    position: absolute;
+    margin-top: 25.5%;
+    margin-left: 44%;
+    color: #898989;
+    
+}
+.icon-2{
+    position: absolute;
+    margin-top: 21%;
+    margin-left: 44%;
+    color: #898989;
+}
